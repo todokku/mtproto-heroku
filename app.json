@@ -1,0 +1,14 @@
+
+{
+	"name": "MTProto",
+	"description": "Deploy MTProto on Heroku.",
+	"keywords": ["MTProto"],
+	"env": {
+		"secret": {
+			"description": "MTProto secret,use 'head -c 16 /dev/urandom | xxd -ps' to generate",
+			"value": "c0cbmel5a426d9636472pd56f8e11o9d"
+		}
+	},
+	"repository": "https://github.com/x361023/mtproto-heroku",
+	"stack": "container"
+}
